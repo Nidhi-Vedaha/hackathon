@@ -1,0 +1,7 @@
+{
+  "ast": null,
+  "code": "export const FAILED = \"FAILED\";",
+  "map": null,
+  "metadata": {},
+  "sourceType": "module"
+}

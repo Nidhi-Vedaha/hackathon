@@ -1,0 +1,7 @@
+{
+  "ast": null,
+  "code": "var __jsx = React.createElement;\nimport React from \"react\";\nimport { Heading, Page } from \"@shopify/polaris\";\nimport Artists from \"../Component/Artists/Artists\";\nexport default function MainPage() {\n  return __jsx(Page, null, __jsx(Heading, null, __jsx(Artists, null)));\n}",
+  "map": null,
+  "metadata": {},
+  "sourceType": "module"
+}

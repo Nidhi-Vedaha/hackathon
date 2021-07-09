@@ -1,0 +1,7 @@
+{
+  "ast": null,
+  "code": "import { FAILED } from \"../action\";\nconst INITIAL_STATE = {\n  error_msg: {}\n};\n\nconst handleReducer = (state = INITIAL_STATE, action) => {\n  switch (action.type) {\n    case FAILED:\n      {\n        return Object.assign({}, state, {\n          error_msg: action.data.error_msg\n        });\n      }\n\n    default:\n      return state;\n  }\n};\n\nexport default handleReducer;",
+  "map": null,
+  "metadata": {},
+  "sourceType": "module"
+}
